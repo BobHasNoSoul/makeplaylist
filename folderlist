@@ -1,0 +1,6 @@
+#!/bin/bash
+#% basename "'$PWD'"
+f=$(basename "$PWD")
+echo "$f"
+echo "making playlist from current folder"
+ls -1 *.mp3 > "$f.m3u"
