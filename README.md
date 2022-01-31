@@ -8,6 +8,6 @@ This creates a .m3u playlist in the name of the directory it is found in e.g.
 ```
 
 # Installation
-just copy the file "makeplaylist" to your "/usr/bin/" folder and make it executable with "chmod + x"
+just copy the "makeplaylist" and "folderlist" files to your "/usr/bin/" folder and make it executable with "chmod + x"
 
-`sudo cp makeplaylist /usr/bin/makeplaylist && sudo chmod +x /usr/bin/makeplaylist`
+`sudo cp makeplaylist /usr/bin/makeplaylist && sudo cp folderlist /usr/bin/folderlist && sudo chmod +x /usr/bin/makeplaylist`
